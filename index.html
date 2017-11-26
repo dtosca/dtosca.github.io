@@ -1,80 +1,207 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
-    <!--Bootstrap-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/darkly/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="script.js"></script>
-    <title>Diana Tosca</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Diana Tosca">
+
+    <title>Diana Tosca</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
   </head>
-  <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  <body id="page-top">
 
-    <h1 text-align="center">Diana Tosca</h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Diana Tosca</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+	    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#music">Music</a>
+            </li>
+	    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+	    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#readings">Readings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <!--Divs-->
-    <div id="about">
-      <h3>About</h3>
-      <p>Hi, my name is Diana Tosca. I am a senior studying Computer Science and Music at Wellesley College. </p>
-      <p>My interests include front end web development, UX/UI, and music in technology.</p>
-      <p>I currently do research at the <a href="cs.wellesley.edu/~hcilab">Wellesley HCI Lab</a>.</p>
-    </div>
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Diana Tosca</h1>
+              <p class="intro-text">Computer Science and Music</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <div id="resume">
-      <h3>Resume</h3>
-      <a href="https://drive.google.com/file/d/0B3c5HhcypglpNG9vWUN2Qmp3NjA/view?usp=sharing">Resume</a>
-      <br>
-      <a href="https://drive.google.com/file/d/1EclY9gTx5RtFzSomYYTpECt0ocQrzzuV/view?usp=sharing">CV</a>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About</h2>
+		<p>Hi, my name is Diana.</p>
+		<p>I am a senior studying Computer Science and Music at Wellesley College. </p>
+      		<p>My interests include front end web development, UX/UI,functional programming, and music in technology.</p>
+      		<p>I currently do research at the <a href="cs.wellesley.edu/~hcilab">Wellesley HCI Lab</a>.</p>	
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div id="cs">
-      <h3>CS Projects</h3>
-    </div>
+    <!-- Experience Section -->
+    <section id="experience" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Experience</h5>
+	    <li style="list-style-type: none;"><b><u>Programming Languages</u></b></li>
+	    <li style="list-style-type: none;"><i>Experienced: </i> Javascript, HTML, CSS </li>
+	    <li style="list-style-type: none;"><i>Proficient: </i> Racket, Python, Java </li>
+	    <li style="list-style-type: none;"><i>Familiar: </i> C </li>
+	    <li style="list-style-type: none;"><i>Frameworks:</i> Node.js, Flask </li>
+	    <br>
+	    <li style="list-style-type: none;" ><b><u>Human Languages:</u></b></li>
+	    <li style="list-style-type: none;">English(native speaker), Spanish (native speaker), Italian(proficient)</li>
+	    <br>
+	    <h3><a href="https://drive.google.com/file/d/0B3c5HhcypglpNG9vWUN2Qmp3NjA/view?usp=sharing">Resume</a> || <a href="https://drive.google.com/file/d/1EclY9gTx5RtFzSomYYTpECt0ocQrzzuV/view?usp=sharing">CV</a></h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div id="music">
-      <h3>Music Projects</h3>
-    </div>
+    <!-- Projects Section -->
+    <section id="projects" class="content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Projects</h2>
+          <p>Coding Projects</p>
+	</div>
+      </div>
+    </section>
 
-    <div id="contact">
-      <h3>Contact Information</h3>
-    </div>
-    
-    <div id="links">
-      <h3>Reading</h3>
-      <p>Links to things I liked reading...</p>
-      <a href="http://leftoversalad.com/c/015_programmingpeople/">Programming Languages as People</a>
-      <a href="https://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html">Execution in the Kingdom of Nouns</a>
-    </div>
-    
-</nav>
-</body>
+   <!-- Music Section -->
+    <section id="music" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Music</h2>
+	    <p>Music Compositions</p>	
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="download-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact Me</h2>
+            <ul class="list-inline banner-social-buttons">
+	    <p>Email me at <a href="mailto: dtosca@wellesley.edu">dtosca@wellesley.edu</p>
+              <li class="list-inline-item">
+	        <a href="https://twitter.com/toscadiana" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name"></span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/dtosca" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name"></span>
+                </a>
+              </li>
+		  <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/diana-tosca-250a41b6/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  <span class="network-name"></span>
+                </a>
+              </li>
+<li class="list-inline-item">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Readings Section -->
+    <section id="readings" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Reading List</h2>
+		<li style="list-style-type: none;"><a href="http://leftoversalad.com/c/015_programmingpeople/">Programming Languages as People</a></li>
+		<li style="list-style-type: none;"><a href="https://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html">Execution in the Kingdom of Nouns</a></li>
+		<li style="list-style-type: none;"><a href="http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html">History of Programming Languages</a></li>
+		<li style="list-style-type: none;"><a href="http://www.paulgraham.com/nerds.html">Why Nerds are Unpopular</a></li>
+		<li style="list-style-type: none;"><a href="https://tapintoteenminds.com/japanese-multiplication/">Visual Multiplication</a></li>
+		<li style="list-style-type: none;"><a href="https://www.newyorker.com/magazine/2006/04/10/the-soundtrack-of-your-life">Muzak: The Soundtrack of your life</a></li>
+		<li style="list-style-type: none;"><a href="http://springssoft.com/downloads/Reading_Journals/Essays/The%20Trouble%20with%20Bright%20Girls.pdf">Trouble With Bright Girls</a></li>
+		<li style="list-style-type: none;"><a href="https://www.maa.org/external_archive/devlin/LockhartsLament.pdf">A Mathematicians Lament</a></li>
+		<li style="list-style-type: none;"><a href="http://www.bradyharanblog.com/blog/2015/1/11/this-blog-probably-wont-help">Sum of all natural numbers</a></li>
+		<li style="list-style-type: none;"><a href="https://pbs.twimg.com/media/Bhfbnn3CMAA93mg.png:large">Emacs vs Vim</a></li>
+		<!--<li style="list-style-type: none;"><a href=""></a></li>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Created using Boostrap. Last Updated November 2017.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
 </html>
